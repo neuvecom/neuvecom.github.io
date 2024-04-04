@@ -1,0 +1,6 @@
+[book]
+authors = ["neuvecom"]
+language = "ja"
+multilingual = false
+src = "src"
+title = "neuve project"
