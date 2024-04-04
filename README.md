@@ -82,3 +82,7 @@ ssh-keygen -t rsa -b 4096 -C "$(git config user.email)" -f gh-pages -N ""
   - Allow write accessにチェック
 - gh-pages
   - mdBookでビルドするリポジトリ
+  - Settings > Secrets
+  - ACTIONS_DEPLOY_KEY
+
+cp -R -f book/* docs/
